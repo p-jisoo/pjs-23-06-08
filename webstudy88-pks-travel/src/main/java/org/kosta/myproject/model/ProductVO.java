@@ -3,6 +3,12 @@ package org.kosta.myproject.model;
 public class ProductVO {
 	private String name;
 	private int price;
+	
+	
+	public ProductVO() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 	public String getName() {
 		return name;
 	}
